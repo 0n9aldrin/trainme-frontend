@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="55dp"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:id="@+id/frghome"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:id="@+id/img_slideshow_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/img_border" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/view_pager"
+                android:layout_width="fill_parent"
+                android:layout_height="240dp" />
+
+
+            <com.trainme.jerald.frontend.components.slide.CirclePageIndicator
+                android:id="@+id/indicator"
+                android:theme="@style/Transparent"
+                android:layout_marginTop="-20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view_pager"
+                android:padding="10dip"  />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/sparring"
+                android:layout_width="@dimen/width_menu"
+                android:layout_height="@dimen/height_menu"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sparring_icon"
+                android:layout_marginRight="15dp"
+                />
+
+            <Button
+                android:layout_marginLeft="15dp"
+                android:id="@+id/courseCoach"
+                android:layout_width="@dimen/width_menu"
+                android:layout_height="@dimen/height_menu"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/coaching_icon"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/historyInvite"
+                android:layout_width="@dimen/width_menu"
+                android:layout_height="@dimen/height_menu"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/booking_icon" />
+
+            <Button
+                android:layout_marginLeft="15dp"
+                android:id="@+id/event"
+                android:layout_width="@dimen/width_menu"
+                android:layout_height="@dimen/height_menu"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/event_icon"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/rankingMan"
+                android:layout_width="@dimen/width_menu"
+                android:layout_height="@dimen/height_menu"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/ranking_man" />
+
+            <Button
+                android:layout_marginLeft="15dp"
+                android:id="@+id/rankingWoman"
+                android:layout_width="@dimen/width_menu"
+                android:layout_height="@dimen/height_menu"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/ranking_woman"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

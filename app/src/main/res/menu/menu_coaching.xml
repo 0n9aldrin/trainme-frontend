@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.produk.ProductActivity">
+    <item
+        android:id="@+id/action_status"
+        android:icon="@drawable/icon_notif"
+        android:title="Status"
+        app:showAsAction="always" />
+</menu>

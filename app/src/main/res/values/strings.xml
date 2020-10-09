@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Trainme</string>
+    <string name="title_order">Orders</string>
+    <string name="title_job">Jobs</string>
+    <string name="title_setting">Settings</string>
+    <string name="title_signout">Sign Out</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="pause">Pause</string>
+    <string name="jeremy">Jeremy</string>
+    <string name="some_error">Some Error Occurred!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_back">Back</string>
+
+    <string name="fullName">Full Name</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="username">Username</string>
+    <string name="address_user">Address</string>
+    <string name="password">Password</string>
+    <string name="re_type_password">Re Type Password</string>
+    <string name="signup">Sign Up</string>
+    <string name="signupas">Sign Up as</string>
+    <string name="studentrole">Student</string>
+    <string name="coach">Coach</string>
+    <string name="link_text">
+        <u>Click Here!</u>
+    </string>
+    <string name="error_email_empty">"Username can not empty"</string>
+    <string name="error_password_empty">Password can not empty</string>
+    <string name="error_password_not_match">Password dan Re type Password not match</string>
+
+    <string name="txt_image_slider">Image Slideshow</string>
+    <string name="time_out">Time Out</string>
+    <string name="error_occured">Error Occurred</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="network_error">No Internet Connection!</string>
+    <string name="signin_text">Sign In</string>
+    <string name="signup_text">Sign Up</string>
+    <string name="error_email">Username can not be empty</string>
+    <string name="title_activity_student_coaching">StudentCoachingActivity</string>
+    <string name="title_activity_history_sparring">HistorySparringActivity</string>
+    <string name="title_activity_history_coaching">HistoryCoachingActivity</string>
+    <string name="title_activity_add_sparring">AddSparringActivity</string>
+
+    <!--Add Sparring-->
+    <string name="notes">Notes</string>
+    <string name="sparring_name">Sparring Name</string>
+    <string name="sparring_date">Sparring Date</string>
+    <string name="sparring_end">Sparring End Date</string>
+    <string name="sparring_start_time">Sparring Start Time</string>
+    <string name="sparring_end_time">Sparring End Time</string>
+
+    <string name="coaching_name">Coaching Name</string>
+    <string name="coaching_date">Coaching Start Date</string>
+    <string name="coaching_end">Coaching Date End</string>
+    <string name="coaching_time">Coaching Start Time</string>
+    <string name="coaching_end_time">Coaching End Time</string>
+
+    <string name="desription">Description</string>
+    <string name="location">Location</string>
+    <string name="empty"> </string>
+    <string name="add_sparring">Add Sparring</string>
+    <string name="request_join">Request Join</string>
+    <string name="add_coaching">Add Coaching</string>
+    <string name="address">Address</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="error_empty">Can no empty</string>
+    <string name="title_activity_add_coaching">AddCoachingActivity</string>
+
+    <string name="chooserole">Choose Role</string>
+    <string name="title_activity_my_request_status">MyRequestStatusActivity</string>
+    <string name="title_activity_my_request_coaching_status">MyRequestCoachingStatusActivity
+    </string>
+    <string name="title_activity_requester_coaching">RequesterCoachingActivity</string>
+    <string name="title_logout">Sign Out</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="content_logout">Are you sure want to signout?</string>
+    <string name="title_activity_abc">AbcActivity</string>
+    <string name="title_activity_event">EventActivity</string>
+    <string name="title_activity_detail_event">DetailEventActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+
+    <string name="profile_update">Update Profile</string>
+    <string name="title_activity_ranking_woman">RankingWomanActivity</string>
+
+    <string-array name="array_gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="array_level">
+        <item>Beginner</item>
+        <item>Amateur</item>
+        <item>Advanced</item>
+    </string-array>
+    <string name="title_activity_about">AboutActivity</string>
+</resources>

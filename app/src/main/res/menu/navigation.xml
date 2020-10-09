@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.produk.ProductActivity">
+    <item
+        android:id="@+id/action_signout"
+        android:icon="@drawable/icon_signout"
+        android:title="Cart"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_profile"
+        android:icon="@drawable/profile_icon"
+        android:title="Cart"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_about"
+        android:icon="@drawable/iconsabout"
+        android:title="Cart"
+        app:showAsAction="always" />
+
+</menu>
