@@ -1,4 +1,7 @@
 # Trainme: Android
+
+Google play store: https://play.google.com/store/apps/details?id=com.trainme.jerald.frontend&hl=en
+
 TRAINME was created to provide a platform to facilitate tennis enthusiasts especially students more readily access sparring partners, coaches, tennis events and information on players’ level like National Ranking. Being tennis players ourselves, we noticed the difficulty of tennis students in accessing affordable coaches (and also vice versa) in the Indonesian tennis community, which may be a leading reason for the lack of professional tennis players from Indonesia progressing to the highest levels in world tennis currently. We also observed that within the tennis community, there are many young tennis enthusiasts who are ambitious to progress to higher levels and there is no lack of capable and experienced tennis coaches within Indonesia who potentially could
 help them.
 
